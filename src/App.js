@@ -19,7 +19,7 @@ function App() {
           <Route path="/feedback" element={<Feedback />} />
           <Route path="/accountmade" element={<Accountmade />} />
           <Route path="/signup" element={<Signup />} />
-          <Route path="/bookingmade" element={<Bookingmadenp />} />
+          <Route path="/bookingmade" element={<Bookingmade />} />
         </Routes>
       </Router>
     </div>
