@@ -14,7 +14,7 @@ function Calendar() {
     end_time: time2
   };
   console.log(requestData);
-  const route = "http://localhost:4000/api/booking/"; // Replace with your actual API route
+  const route = "https://gymbro-mysql-6b313f0f66bb.herokuapp.com/api/booking/"; // Replace with your actual API route
 
   fetch(route, {
     method: "POST",

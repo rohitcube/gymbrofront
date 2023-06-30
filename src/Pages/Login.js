@@ -17,8 +17,8 @@ function Login() {
       password: password
     };
     const route1 = isLogin
-      ? "http://localhost:4000/api/login/"
-      : "http://localhost:4000/api/records/";
+      ? "https://gymbro-mysql-6b313f0f66bb.herokuapp.com/api/login/"
+      : "https://gymbro-mysql-6b313f0f66bb.herokuapp.com/api/records/";
 
     console.log(route1);
     fetch(route1, {

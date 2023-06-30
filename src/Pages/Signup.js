@@ -16,7 +16,7 @@ import { useNavigate } from "react-router-dom";
         password: password,
         tele_id: tele_id
     };
-    const route1 = "http://localhost:4000/api/records/"; //create 
+    const route1 = "https://gymbro-mysql-6b313f0f66bb.herokuapp.com/api/records/"; //create 
     console.log(route1);
     fetch(route1, {
       method: "POST",
