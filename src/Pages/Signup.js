@@ -67,6 +67,8 @@ import { useNavigate } from "react-router-dom";
             value={studentNo}
             onChange={(e) => setStudentNo(e.target.value)}
           />
+          <br>
+          </br>
           <input
             type="password"
             name="password"
@@ -74,6 +76,8 @@ import { useNavigate } from "react-router-dom";
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
+           <br>
+          </br>
           <input
             type="tele_id"
             name="tele_id"
